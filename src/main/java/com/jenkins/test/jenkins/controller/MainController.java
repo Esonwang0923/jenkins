@@ -6,7 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MainController {
-
     @RequestMapping(value = "/test",method = RequestMethod.GET)
     public String hello() {
         return "test the new spring boot!";
